@@ -1,4 +1,3 @@
-/* Início do style.css para PaganiP1 */
 
 #controller {
   position: relative;
@@ -19,11 +18,9 @@
   pointer-events: none;
 }
 
-/* Exemplo de efeito nos botões ABXY */
 .button-red { filter: brightness(1.2) drop-shadow(0 0 5px red); }
 .button-white { filter: brightness(1.5); }
 
-/* Exemplo de estilo para o botão Xbox central */
 #xbox-button {
   font-family: 'Arial Black', sans-serif;
   color: white;
@@ -31,7 +28,6 @@
   text-shadow: 0 0 2px #B0292D;
 }
 
-/* Efeitos metálicos e gloss nos triggers/sticks */
 .stick, .trigger {
   filter: brightness(1.1) contrast(1.2);
   mix-blend-mode: overlay;
